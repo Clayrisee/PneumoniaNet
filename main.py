@@ -32,7 +32,6 @@ print(model)
 with torch.no_grad():
     model.eval()
     output = model(img_transformed)
-    # print(output)
 
 # print("Pertentage Normal : {} \nPercentage Pneumonia: {}".format(output[0], output[1]))
 #Visualize Model
