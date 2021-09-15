@@ -33,7 +33,7 @@ with torch.no_grad():
     model.eval()
     output = model(img_transformed)
 
-# print("Pertentage Normal : {} \nPercentage Pneumonia: {}".format(output[0], output[1]))
+
 #Visualize Model
 if args.visualize =='y':
     plt.imshow(image), plt.xticks([]), plt.yticks([])
