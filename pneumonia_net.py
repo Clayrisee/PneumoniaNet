@@ -18,7 +18,6 @@ class PneumoniaNet(nn.Module):
     nn.ReLU(),
     nn.Dropout(),
     nn.Linear(4096, out_features=output_size),
-    # nn.Softmax()
     )
   
   def forward(self, x):
