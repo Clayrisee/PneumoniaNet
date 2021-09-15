@@ -15,7 +15,7 @@ parser.add_argument("-i", "--image", help="Path Image for input")
 parser.add_argument("-v", "--visualize", help="y: if want to visualize the image, n: for no")
 args = parser.parse_args()
 
-# Get image
+# Get Image from Image Path
 img_path = args.image
 image = Image.open(img_path).convert('RGB')
 
