@@ -12,7 +12,7 @@ For installation options, currently I don't provide the docker image yet. But yo
 * Install the requirement modules ```pip install -r requirements.txt```
 * If the module already satisfied, you can run the main.py
 ### Main.py
-To use ```main.py```, the model is in ```.pth``` format. My ```.pth``` saved model is in [this](https://github.com/zogojogo/ASL-Classification/tree/main/pretrain_model/PneumoniaNet.txt) folder.
+To use ```main.py```, the model is in ```.pth``` format. My ```.pth``` saved model is in [this](https://github.com/Clayrisee/PneumoniaNet/blob/main/pretrain_weight/PneumoniaNet.txt) folder.
 
 1. See details arguments
 ```python main.py -h```
