@@ -5,7 +5,6 @@ Main objective of this program is to classify Pneumonia with deep learning metho
 My main method to make this is using a deep learning approach. I use Convolution Neural Nets to create the classifier and apply transfer learning with pre-trained models. I used Vgg-19 as the backbone 
 fine-tune it with my own dataset (which I got from this [Kaggle](https://www.kaggle.com/tolgadincer/labeled-chest-xray-images) link). For the architecture, I used Pytorch as the base framework.
 
-![ASL](ASL-guide.jpg)
 ## Installation Guide
 For installation options, currently I don't provide the docker image yet. But you can run this simply by clone or fork this repository.
 
