@@ -18,7 +18,14 @@ To use ```main.py```, the model is in ```.pth``` format. My ```.pth``` saved mod
 ```python main.py -h```
 
 2. Perform inference
-```python inference.py -i <your_image_path>```
+```python inference.py -i <your_image_path> -v <y/n to visualize result>```
+
+## Result
+| Input Image      | Output |
+| ----------- | ----------- |
+| ![Image1](https://github.com/Clayrisee/PneumoniaNet/blob/main/test_image/test_1.jpeg)     | Pneumonia |
+| ![Image2](https://github.com/Clayrisee/PneumoniaNet/blob/main/test_image/test_2.jpeg)     | Pneumonia |
+| ![Image3](https://github.com/Clayrisee/PneumoniaNet/blob/main/test_image/test_3.jpeg)     | Normal |
 
 
 
