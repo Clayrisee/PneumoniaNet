@@ -18,7 +18,7 @@ To use ```main.py```, the model is in ```.pth``` format. My ```.pth``` saved mod
 ```python main.py -h```
 
 2. Perform inference
-```python inference.py -i <your_image_path> -v <y/n to visualize result>```
+```python main.py -i <your_image_path> -v <y/n to visualize result>```
 
 ## Result
 | Input Image      | Output |
